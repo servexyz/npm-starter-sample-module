@@ -1,5 +1,6 @@
 import test from "ava";
 import { SAMPLE_ENV } from "babel-dotenv";
+import { honesty } from "../src/index";
 
 test("foo", t => {
   t.pass();
@@ -13,4 +14,8 @@ test("bar", async t => {
 
 test("SAMPLE_ENV loads", t => {
   t.is(SAMPLE_ENV, "foobar");
+});
+
+test("honesty returns true", t => {
+  t.truthy(honesty());
 });
