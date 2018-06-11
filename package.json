@@ -1,6 +1,6 @@
 {
-  "name": "npm-starter",
-  "version": "1.0.0",
+  "name": "npm-starter-sample-module",
+  "version": "0.0.1",
   "main": "build/main.js",
   "license": "MIT",
   "repository": {
