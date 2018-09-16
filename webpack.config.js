@@ -4,7 +4,7 @@ const DuplicatePackageCheckerPlugin = require("duplicate-package-checker-webpack
 const NodeExternals = require("webpack-node-externals");
 
 module.exports = {
-  entry: ["idempotent-babel-polyfill", path.resolve(__dirname, "src/index.js")],
+  entry: [path.resolve(__dirname, "src/index.js")],
   output: {
     path: path.resolve(__dirname, "build"),
     filename: "main.js",
