@@ -7,7 +7,7 @@
 ### Install
 
 ```bash
-git clone git@github.com:servexyz/npm-starter
+git clone git@github.com:servexyz/npm-starter-sample-module
 ```
 
 ### Use
